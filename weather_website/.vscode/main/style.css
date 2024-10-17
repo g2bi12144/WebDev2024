@@ -296,6 +296,7 @@ button:active {
     background-color: var(--bg-color2);
 }
 .light-mode #city_input,
+.light-mode #mapBtn,
 .light-mode #searchBtn,
 .light-mode #locationBtn,
 .light-mode #settingsBtn {
@@ -339,4 +340,23 @@ button:active {
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+#mapBtn a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+#mapBtn {
+    border: none;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#mapBtn:hover {
+    background-color: #ddd;
 }

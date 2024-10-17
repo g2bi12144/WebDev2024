@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #1e2023;
+    color: #f1f1f1;
+}
+.faq {
+    margin: 20px;
+}
+h2 {
+    color: #f1f1f1;
+}
+.faq-item {
+    margin-bottom: 20px;
+}
+#returnBtn {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 12px 18px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+#returnBtn i {
+    margin-right: 5px;
+}
